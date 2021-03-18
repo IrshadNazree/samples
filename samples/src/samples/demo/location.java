@@ -3,7 +3,6 @@ package samples.demo;
 public class location {
 	 private int postcode;
 	 private String address;
-	 private String state;
 
 	 public int getPost() {
 		 return this.postcode;
@@ -20,12 +19,5 @@ public class location {
 	 public void setAdd(String add) {
 		 this.address = add;
 	 }
-	 
-	 public String getState() {
-		 return this.state;
-	 }
-
-	 public void setState(String state) {
-		 this.state = state;
-	 }
+	
 }
