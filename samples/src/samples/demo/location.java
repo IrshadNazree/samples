@@ -1,13 +1,13 @@
 package samples.demo;
 
 public class location {
-	 private int number;
+	 private int postcode;
 
-	 public int getNumber() {
-		 return this.number;
+	 public int getPost() {
+		 return this.postcode;
 	 }
 
-	 public void setNumber(int num) {
-		 this.number = num;
+	 public void setPost(int post) {
+		 this.postcode = post;
 	 }
 }
